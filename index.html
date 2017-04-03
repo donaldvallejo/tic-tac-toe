@@ -14,15 +14,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 
     <!-- link to custom stylesheet (always require **after** Materialize) -->
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css" media="screen" title="no title" charset="utf-8">
 
     <!-- TODO: add jQuery from CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- link to custom javascript file (always require after external JS libraries) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-    <link rel="stylesheet" href="js/app.js">
-    <link rel="stylesheet" href="/css/style.css">
+    <script rel="stylesheet" src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Tic Tac Toe</title>
   </head>
@@ -43,18 +43,39 @@
           <!-- you can put rows inside of columns! -->
           <!-- Materialize subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row">
-            <div class="col m4 valign-wrapper box">
+            <div class="squares col m4 valign-wrapper box">
               <h3 class="valign center-block">X</h3>
             </div>
-            <div class="col m4 valign-wrapper box">
+            <div class="squares col m4 valign-wrapper box">
               <h3 class="valign center-block">X</h3>
             </div>
-            <div class="col m4 valign-wrapper box">
+            <div class="squares col m4 valign-wrapper box">
               <h3 class="valign center-block">X</h3>
             </div>
           </div>
-
-
+          <div class="row">
+            <div class="squares col m4 valign-wrapper box">
+              <h3 class="valign center-block">X</h3>
+            </div>
+            <div class="squares col m4 valign-wrapper box">
+              <h3 class="valign center-block">X</h3>
+            </div>
+            <div class="squares col m4 valign-wrapper box">
+              <h3 class="valign center-block">X</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="squares col m4 valign-wrapper box">
+              <h3 class="valign center-block">X</h3>
+            </div>
+            <div class="squares col m4 valign-wrapper box">
+              <h3 class="valign center-block">X</h3>
+            </div>
+            <div class="squares col m4 valign-wrapper box">
+              <h3 class="valign center-block">X</h3>
+            </div>
+          </div>
+          <button type="button">reset</button>
 
         </div>
       </div>
